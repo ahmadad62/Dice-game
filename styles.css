@@ -1,18 +1,42 @@
+*{
+  font-family: 'Indie Flower', cursive;
+
+}
+body {
+  background-color: #393E46;
+  font-family: 'Indie Flower', cursive;
+}
+
 .container {
   width: 70%;
   margin: auto;
   text-align: center;
+
 }
 
+.info input {
+  width: 30%;
+  height: 3rem;
+  font-size: 2rem;
+  font-family: 'Indie Flower', cursive;
+   color: red;
+   margin-bottom: 2rem;
+}
+.players{
+  color: goldenrod;
+  font-size: 3rem;
+}
+
+.play{
+  display: none;
+}
 .dice {
   text-align: center;
   display: inline-block;
+  margin: 100px;
 
 }
 
-body {
-  background-color: #393E46;
-}
 
 h1 {
   margin: 30px;
@@ -31,7 +55,14 @@ p {
 img {
   width: 80%;
 }
-
+.control input{
+  width: 5rem;
+  height: 2rem;
+  background-color: #9c2913;
+  color: white;
+  font-size: 1.3rem;
+  font-weight:bold ;
+}
 footer {
   margin-top: 5%;
   color: #EEEEEE;
