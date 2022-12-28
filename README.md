@@ -1,14 +1,9 @@
-# Check solution branch as the last resort
 
-## create a variable that picks a number between 1 - 6
+# Dice Game
+![start page](images/Screenshot%20from%202022-12-28%2009-57-42.png)
+![play ground](images/Screenshot%20from%202022-12-28%2009-55-22.png)
+This code defines several functions that implement a simple dice game. The start function is called when the user clicks a button to start the game. It hides the player input fields and displays the dice-rolling interface.
 
-## look at image names think how you could pick and store random image name and use it wink wink
+The fire function is called when the user clicks a button to roll the dice. It generates two random numbers between 1 and 6, representing the values of the two dice, and displays the corresponding dice images. It then compares the two dice values and displays a message indicating which player won, or a message indicating a draw if the dice values are the same.
 
-## get the image and pass the variable above as the source
-
-## same for player too basically
-
-
-## condition to check who won
-
-## extra: button to refresh the page
+The reset function reloads the current page, effectively resetting the game.
